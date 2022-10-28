@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ducha JBL",
+        "precio": 200,
+        "stock": 12,
+        "categoria": "ducha",
+        "img": "./img/ducha1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Ducha Azul",
+        "precio": 100,
+        "stock": 12,
+        "categoria": "ducha",
+        "img": "./img/ducha2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Ducha Mapache",
+        "precio": 400,
+        "stock": 12,
+        "categoria": "ducha",
+        "img": "./img/ducha3.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Madera Cuadrada",
+        "precio": 500,
+        "stock": 12,
+        "categoria": "madera",
+        "img": "./img/madera1.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Madera Circ",
+        "precio": 700,
+        "stock": 12,
+        "categoria": "madera",
+        "img": "./img/madera2.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Madera Rect",
+        "precio": 900,
+        "stock": 12,
+        "categoria": "madera",
+        "img": "./img/madera3.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Vintage Rojo",
+        "precio": 400,
+        "stock": 12,
+        "categoria": "vintage",
+        "img": "./img/vintage1.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Vintage Wood",
+        "precio": 500,
+        "stock": 12,
+        "categoria": "vintage",
+        "img": "./img/vintage2.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Vintage Silver",
+        "precio": 500,
+        "stock": 12,
+        "categoria": "vintage",
+        "img": "./img/vintage3.jpg"
+    }
+]

@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #110f0fea;
+}
+
+header,
+.alert {
+    z-index: 100;
+}
+
+.description {
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+}
+
+.description:hover {
+    height: 80px;
+}
+
+.carrito {
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.table__productos {
+    display: flex;
+}
+
+.table__productos>img {
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad>input {
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.hide,
+.remove {
+    display: none;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar a {
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+#root {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 1px;
+}
+
+.card>img {
+    display: flex;
+    width: 18rem;
+    height: 300px;
+    margin: 20px;
+}
+
+.card>span {
+    margin: 1px;
+}
+
+.card>button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
